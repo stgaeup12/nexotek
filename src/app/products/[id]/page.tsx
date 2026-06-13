@@ -67,7 +67,7 @@ export default async function ProductDetailPage({ params }: { params: Params }) 
         </div>
 
         {/* Full-Width Cinematic Product Image Banner */}
-        <div className="relative aspect-[4/3] md:aspect-[16/7] w-full rounded-[32px] md:rounded-[48px] overflow-hidden border border-grey-200 shadow-2xl bg-zinc-950 mb-16">
+        <div className="relative aspect-[16/9] md:aspect-[16/7] w-full rounded-[32px] md:rounded-[48px] overflow-hidden border border-grey-200 shadow-2xl bg-zinc-950 mb-16">
           <Image
             src={product.banner || product.image}
             alt={product.name}

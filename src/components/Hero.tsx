@@ -11,7 +11,7 @@ export default function Hero() {
           alt="Nexotek High-Performance Machine"
           fill
           sizes="100vw"
-          className="object-cover object-right brightness-100"
+          className="object-cover object-center brightness-100"
           priority
         />
         {/* Gradient Overlay: Fades from Dark Navy (Left) to Transparent (Right) */}
