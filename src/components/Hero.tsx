@@ -64,7 +64,7 @@ export default function Hero() {
         </div>
 
         {/* Scroll Indicator */}
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2">
+        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 hidden md:block">
           <div className="flex flex-col items-center gap-3">
             <span className="text-[10px] text-white/40 uppercase font-bold tracking-[0.4em]">Scroll</span>
             <div className="w-[1px] h-12 bg-gradient-to-b from-electric to-transparent" />
