@@ -22,6 +22,7 @@ export default function Navbar() {
     { name: "Home", href: "/" },
     { name: "About", href: "#about" },
     { name: "Services", href: "#products" },
+    { name: "Portfolio", href: "/portfolio.pdf" },
     { name: "Contact us", href: "#contact" },
   ];
 
@@ -54,10 +55,30 @@ export default function Navbar() {
             >
               <div className="flex items-baseline space-x-10">
                 {navLinks.map((link) => {
+                  const isPdf = link.href.endsWith(".pdf");
                   // If on a subpage, relative anchors like "#about" need to link to "/#about"
-                  const targetHref = isHome 
+                  const targetHref = isPdf 
                     ? link.href 
-                    : (link.href.startsWith("#") ? `/${link.href}` : link.href);
+                    : (isHome 
+                      ? link.href 
+                      : (link.href.startsWith("#") ? `/${link.href}` : link.href));
+
+                  if (isPdf) {
+                    return (
+                      <a
+                        key={link.name}
+                        href={targetHref}
+                        download="Nexotek_Portfolio.pdf"
+                        className={`text-sm font-bold transition-colors duration-300 ${
+                          showScrolledState 
+                            ? "text-zinc-700 hover:text-electric" 
+                            : "text-white/90 hover:text-white"
+                        }`}
+                      >
+                        {link.name}
+                      </a>
+                    );
+                  }
 
                   return (
                     <Link

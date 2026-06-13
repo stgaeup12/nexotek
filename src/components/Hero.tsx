@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -29,10 +30,29 @@ export default function Hero() {
             High-performance industrial washing systems engineered for durability and maximum ROI.
           </p>
           
-          <div className="mt-12 flex flex-col sm:flex-row items-start sm:items-center gap-8">
-            <button className="px-10 py-4 bg-electric text-white rounded-full font-black text-sm uppercase tracking-widest hover:brightness-110 transition-all shadow-2xl shadow-electric/20">
+          <div className="mt-12 flex flex-col sm:flex-row items-stretch sm:items-center gap-4 max-w-lg sm:max-w-none">
+            <Link 
+              href="#contact"
+              className="px-10 py-4 bg-electric text-white rounded-full font-black text-sm uppercase tracking-widest hover:brightness-110 transition-all shadow-2xl shadow-electric/20 text-center"
+            >
               Request Quote
-            </button>
+            </Link>
+            
+            <a 
+              href="/portfolio.pdf" 
+              download="Nexotek_Portfolio.pdf"
+              className="px-10 py-4 bg-white/10 backdrop-blur-md border border-white/20 text-white rounded-full font-black text-sm uppercase tracking-widest hover:bg-white hover:text-dark transition-all text-center flex items-center justify-center gap-2 cursor-pointer"
+            >
+              <svg 
+                className="w-4.5 h-4.5" 
+                fill="none" 
+                stroke="currentColor" 
+                viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+              </svg>
+              Download Portfolio
+            </a>
             
             {/* Social Proof Stack */}
             <div className="flex items-center gap-4">
