@@ -26,7 +26,7 @@ export default function VideoShowcase() {
   const youtubeVideoId = "zn000RWepTQ"; // Real high-quality car wash demo video ID
 
   return (
-    <section id="showcase" className="py-24 bg-white text-dark relative overflow-hidden">
+    <section id="showcase" className="pt-16 pb-8 md:py-24 bg-white text-dark relative overflow-hidden">
       {/* Background accents */}
       <div className="absolute top-1/2 left-0 w-72 h-72 bg-electric/5 rounded-full blur-3xl pointer-events-none -translate-y-1/2" />
       <div className="absolute top-1/3 right-0 w-96 h-96 bg-zinc-100 rounded-full blur-2xl pointer-events-none" />
