@@ -62,7 +62,7 @@ export default function VideoShowcase() {
             {/* Glowing Play Button */}
             <div className="absolute inset-0 flex items-center justify-center">
               <div
-                className="relative flex items-center justify-center w-24 h-24 rounded-full bg-electric text-white shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300 group-hover:bg-electric/90"
+                className="relative flex items-center justify-center w-16 h-16 md:w-24 md:h-24 rounded-full bg-electric text-white shadow-2xl hover:scale-110 active:scale-95 transition-all duration-300 group-hover:bg-electric/90"
               >
                 {/* Pulse Ring */}
                 <div className="absolute inset-0 rounded-full bg-electric opacity-30 animate-ping group-hover:opacity-40" />
@@ -71,19 +71,19 @@ export default function VideoShowcase() {
                 <div className="absolute -inset-1 rounded-full bg-electric/50 blur-md opacity-50 group-hover:opacity-80 transition-opacity" />
 
                 {/* SVG Play Icon */}
-                <svg className="w-8 h-8 relative z-10 translate-x-0.5" fill="currentColor" viewBox="0 0 24 24">
+                <svg className="w-6 h-6 md:w-8 md:h-8 relative z-10 translate-x-0.5" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M8 5v14l11-7z" />
                 </svg>
               </div>
             </div>
 
             {/* Bottom info banner */}
-            <div className="absolute bottom-8 left-8 md:bottom-12 md:left-12 text-white max-w-md pointer-events-none select-none">
-              <span className="text-[10px] font-black tracking-[0.2em] text-electric uppercase bg-electric/10 backdrop-blur-md px-4 py-1.5 rounded-full border border-electric/20 inline-block mb-3">
+            <div className="absolute bottom-4 left-4 md:bottom-12 md:left-12 text-white max-w-[280px] sm:max-w-md pointer-events-none select-none">
+              <span className="hidden sm:inline-block text-[10px] font-black tracking-[0.2em] text-electric uppercase bg-electric/10 backdrop-blur-md px-4 py-1.5 rounded-full border border-electric/20 mb-3">
                 Featured Showroom Demo
               </span>
-              <h4 className="text-xl md:text-2xl font-black uppercase tracking-tight">360° Automatic Single Arm</h4>
-              <p className="text-xs text-white/60 mt-1 font-medium">Model: NT-360AJW - High Pressure Water Jet system in full speed cycle.</p>
+              <h4 className="text-sm sm:text-xl md:text-2xl font-black uppercase tracking-tight">360° Automatic Single Arm</h4>
+              <p className="hidden sm:block text-xs text-white/60 mt-1 font-medium">Model: NT-360AJW - High Pressure Water Jet system in full speed cycle.</p>
             </div>
           </div>
         </div>
