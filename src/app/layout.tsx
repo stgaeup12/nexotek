@@ -18,6 +18,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Nexotek | Industrial Car Wash Systems",
   description: "Revolutionizing Car Wash Technology with high-performance machines and dedicated after-sales support.",
+  verification: {
+    google: "y7dFRSmG_jTiRrpriY-1tr8Rff1EjZ22OxLUR-1-wUo",
+  },
 };
 
 export default function RootLayout({
