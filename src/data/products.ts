@@ -21,21 +21,21 @@ export interface Product {
 
 export const productsData: Product[] = [
   {
-    id: "jet-car-wash-plant",
-    name: "Jet Car Wash Plant",
+    id: "jetstream-wash-plant",
+    name: "Jet Stream Wash Plant",
     sub: "High Pressure Automatic Contactless Wash",
     category: "automatic",
     categoryLabel: "Automatic Car Wash Systems",
     description: "Advanced robotic wash plant using touchless high-pressure water jet technology for swift, safe car washing.",
-    detailedExplanation: "NexoTek Jet Wash Plant uses advanced high-pressure water jet technology to remove dirt, grease, mud, and road contaminants from vehicle surfaces without physical contact. Water is compressed under high pressure and sprayed through precision nozzles to deliver powerful cleaning performance while protecting the vehicle surface. The system ensures fast, efficient, and professional vehicle washing with minimum water consumption.",
-    image: "/images/Jet Car Wash Plant.png",
-    banner: "/images/Jet Car Wash Plant_Banner.png",
+    detailedExplanation: "NexoTek Jet Stream Wash Plant uses advanced high-pressure water jet technology to remove dirt, grease, mud, and road contaminants from vehicle surfaces without physical contact. Water is compressed under high pressure and sprayed through precision nozzles to deliver powerful cleaning performance while protecting the vehicle surface. The system ensures fast, efficient, and professional vehicle washing with minimum water consumption.",
+    image: "/images/Nexotek Jet Stream Wash Plant.png",
+    banner: "/images/Nexotek Jet Stream Wash Plant_Banner.png",
     stages: [
       "Robotic Underbody Wash: Cleans the chassis of mud and road salts.",
       "Pre Wash: Rinses away loose surface dust and grit.",
       "Foam Spray & Wheel Wash: Applies thick active foam and washes tires automatically.",
       "Wax Spray: Coats the vehicle in protective, hydrophobic shine wax.",
-      "Final Jet Wash: Completes a high-pressure rinse to reveal a spotless finish."
+      "Final Jet Stream Rinse: Completes a high-pressure rinse to reveal a spotless finish."
     ],
     features: [
       "High-pressure precision spray nozzles",
@@ -59,15 +59,15 @@ export const productsData: Product[] = [
     ]
   },
   {
-    id: "jet-car-wash-with-dryer",
-    name: "Jet Car Wash with Dryer Plant",
+    id: "jetstream-plant-with-contour-dryer",
+    name: "Jet Stream Plant with Contour Dryer",
     sub: "Fully Automated Wash & Dry Solution",
     category: "automatic",
     categoryLabel: "Automatic Car Wash Systems",
     description: "Combines touchless high-pressure water jet technology, foam applications, wax treatments, and integrated air drying.",
-    detailedExplanation: "NexoTek Touchless Jet Car Wash with Dryer combines high-pressure water cleaning, foam application, wax treatment, and integrated air drying into a fully automated washing solution. The system delivers consistent cleaning performance while reducing manual manpower requirements and accelerating vehicle turnaround times.",
-    image: "/images/Jet Car Wash with Dryer Plant.png",
-    banner: "/images/Jet Car Wash with Dryer Plant_Banner.png",
+    detailedExplanation: "NexoTek Touchless Jet Stream Plant with Contour Dryer combines high-pressure water cleaning, foam application, wax treatment, and integrated air drying into a fully automated washing solution. The system delivers consistent cleaning performance while reducing manual manpower requirements and accelerating vehicle turnaround times.",
+    image: "/images/Nexotek Jet Stream Plant with Contour Dryer.png",
+    banner: "/images/Nexotek Jet Stream Plant with Contour Dryer_Banner.png",
     stages: [
       "Robotic Underbody Wash: Precision chassis cleaning.",
       "Pre Wash: High-pressure water rinse.",
@@ -99,14 +99,14 @@ export const productsData: Product[] = [
   },
   {
     id: "360-single-arm-jet",
-    name: "360° Automatic Single Arm Jet Wash Plant",
+    name: "Jet Stream 360° Single-Arm Robotic Plant",
     sub: "Model: NT-360AJW | Rotating Arm System",
     category: "automatic",
     categoryLabel: "Automatic Car Wash Systems",
     description: "Intelligent rotating arm system delivering complete, rapid vehicle wash coverage with integrated air drying.",
-    detailedExplanation: "NexoTek 360° Automatic Single Arm Jet Wash Plant is a next-generation touchless vehicle cleaning solution designed for high-volume car wash operations. The intelligent rotating arm system delivers complete vehicle coverage using high-pressure water jets and advanced automation, ensuring consistent cleaning performance without physical contact. Engineered for speed, reliability, and low operating costs, the system helps car wash centers increase vehicle throughput while maintaining superior wash quality. Its smart control technology, precision positioning, and efficient water usage make it an ideal solution for modern automotive cleaning facilities.",
-    image: "/images/360° Automatic Single Arm Jet Wash Plant.png",
-    banner: "/images/360° Automatic Single Arm Jet Wash Plant_banner.png",
+    detailedExplanation: "NexoTek Jet Stream 360° Single-Arm Robotic Plant is a next-generation touchless vehicle cleaning solution designed for high-volume car wash operations. The intelligent rotating arm system delivers complete vehicle coverage using high-pressure water jets and advanced automation, ensuring consistent cleaning performance without physical contact. Engineered for speed, reliability, and low operating costs, the system helps car wash centers increase vehicle throughput while maintaining superior wash quality. Its smart control technology, precision positioning, and efficient water usage make it an ideal solution for modern automotive cleaning facilities.",
+    image: "/images/Nexotek Jet Stream 360° Single-Arm Robotic Plant.png",
+    banner: "/images/Nexotek Jet Stream 360° Single-Arm Robotic Plant_banner.png",
     youtubeId: "5vWdCstK6X0", // Placeholder YouTube ID (User can replace later)
     features: [
       "360° smart rotating wash arm for full coverage",
@@ -141,14 +141,14 @@ export const productsData: Product[] = [
   },
   {
     id: "double-arm-jet",
-    name: "Automatic Double Arm Jet Wash Plant",
+    name: "Jet Stream Dual-Arm Automated Plant",
     sub: "Model: NT-DAJW | Dual Swing Arm",
     category: "automatic",
     categoryLabel: "Automatic Car Wash Systems",
     description: "High-throughput overhead dual swing-arm system for ultra-fast and complete touchless cleaning.",
-    detailedExplanation: "The NexoTek Automatic Double Arm Jet Wash Plant is engineered for fast, efficient, and touchless vehicle cleaning. Equipped with dual swing-arm technology, the system delivers complete vehicle coverage through high-pressure water jets, automatic foam application, and intelligent control systems. Built with heavy-duty galvanized steel construction and advanced automation, the machine minimizes manpower requirements while improving wash quality and operational efficiency. The dual-arm design enables faster wash cycles, making it an ideal solution for high-volume car wash centers, dealerships, and service stations.",
-    image: "/images/Automatic Double Arm Jet Wash Plant.png",
-    banner: "/images/Automatic Double Arm Jet Wash Plant_banner.png",
+    detailedExplanation: "The NexoTek Jet Stream Dual-Arm Automated Plant is engineered for fast, efficient, and touchless vehicle cleaning. Equipped with dual swing-arm technology, the system delivers complete vehicle coverage through high-pressure water jets, automatic foam application, and intelligent control systems. Built with heavy-duty galvanized steel construction and advanced automation, the machine minimizes manpower requirements while improving wash quality and operational efficiency. The dual-arm design enables faster wash cycles, making it an ideal solution for high-volume car wash centers, dealerships, and service stations.",
+    image: "/images/Nexotek Jet Stream Dual-Arm Automated Plant.png",
+    banner: "/images/Nexotek Jet Stream Dual-Arm Automated Plant_banner.png",
     features: [
       "Dual swing arm cleaning technology for doubled wash speed",
       "Fully automatic PLC-based operation with touch controls",
@@ -408,7 +408,7 @@ export const productsData: Product[] = [
     ],
     accessories: [
       "Colored Active Wash Foam",
-      "Jet Wash Hydrophobic Wax",
+      "Jet Stream Hydrophobic Wax",
       "Upholstery Chemical Cleaner",
       "Multi-Purpose Dashboard & Body Polish",
       "Premium Microfiber Cloths & Glass Microfiber",
@@ -421,5 +421,14 @@ export const productsData: Product[] = [
 ];
 
 export function getProductById(id: string): Product | undefined {
-  return productsData.find(p => p.id === id);
+  const directMatch = productsData.find(p => p.id === id);
+  if (directMatch) return directMatch;
+  // Legacy route aliases for backward compatibility
+  if (id === "jet-car-wash-plant" || id === "jet-blast-plant") {
+    return productsData.find(p => p.id === "jetstream-wash-plant");
+  }
+  if (id === "jet-car-wash-with-dryer" || id === "jet-blast-with-dryer") {
+    return productsData.find(p => p.id === "jetstream-plant-with-contour-dryer");
+  }
+  return undefined;
 }

@@ -50,7 +50,7 @@ export default function VideoShowcase() {
           >
             {/* Thumbnail Image */}
             <Image
-              src="/images/Jet Car Wash Plant_Banner.png"
+              src="/images/Nexotek Jet Stream Wash Plant_Banner.png"
               alt="Nexotek Automated Car Wash Demo"
               fill
               sizes="(max-width: 1024px) 100vw, 1024px"

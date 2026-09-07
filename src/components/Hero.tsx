@@ -7,7 +7,7 @@ export default function Hero() {
       {/* Background Image - Updated to new filename to bypass cache */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/360° Automatic Single Arm Jet Wash Plant_banner.png"
+          src="/images/Nexotek Jet Stream 360° Single-Arm Robotic Plant_banner.png"
           alt="Nexotek High-Performance Machine"
           fill
           sizes="100vw"
