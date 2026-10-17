@@ -22,7 +22,7 @@ export default function Navbar() {
     { name: "Home", href: "/" },
     { name: "About", href: "#about" },
     { name: "Services", href: "#products" },
-    { name: "Portfolio", href: "/portfolio.pdf" },
+    { name: "Brochure", href: "/brochure.pdf" },
     { name: "Contact us", href: "#contact" },
   ];
 
@@ -68,7 +68,7 @@ export default function Navbar() {
                       <a
                         key={link.name}
                         href={targetHref}
-                        download="Nexotek_Portfolio.pdf"
+                        download="Nexotek_Brochure.pdf"
                         className={`text-sm font-bold transition-colors duration-300 ${
                           showScrolledState 
                             ? "text-zinc-700 hover:text-electric" 

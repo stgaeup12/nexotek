@@ -62,7 +62,7 @@ export default function Footer() {
               <li><Link href="/#about" className="text-zinc-400 hover:text-electric text-sm transition-colors">About Us</Link></li>
               <li><Link href="/#products" className="text-zinc-400 hover:text-electric text-sm transition-colors">Wash Systems</Link></li>
               <li><Link href="/#contact" className="text-zinc-400 hover:text-electric text-sm transition-colors">Get a Quote</Link></li>
-              <li><a href="/portfolio.pdf" download="Nexotek_Portfolio.pdf" className="text-zinc-400 hover:text-electric text-sm transition-colors">Download Portfolio</a></li>
+              <li><a href="/brochure.pdf" download="Nexotek_Brochure.pdf" className="text-zinc-400 hover:text-electric text-sm transition-colors">Download Brochure</a></li>
             </ul>
           </div>
 
