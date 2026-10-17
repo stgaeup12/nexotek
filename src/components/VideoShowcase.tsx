@@ -23,7 +23,7 @@ export default function VideoShowcase() {
     };
   }, [isOpen]);
 
-  const youtubeVideoId = "zn000RWepTQ"; // Real high-quality car wash demo video ID
+  const youtubeVideoId = "TsqCWcVCOro"; // Nexotek Touchless Car Wash Machine Demo Short
 
   return (
     <section id="showcase" className="pt-16 pb-8 md:py-24 bg-white text-dark relative overflow-hidden">
@@ -91,15 +91,21 @@ export default function VideoShowcase() {
 
       {/* Lightbox Modal Overlay */}
       {isOpen && (
-        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-dark/95 backdrop-blur-md transition-all duration-300">
-          <div className="relative w-full max-w-5xl aspect-[16/9] bg-black rounded-[24px] md:rounded-[32px] overflow-hidden shadow-2xl border border-white/10 animate-in fade-in zoom-in-95 duration-200">
+        <div 
+          onClick={() => setIsOpen(false)}
+          className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-dark/95 backdrop-blur-md transition-all duration-300"
+        >
+          <div 
+            onClick={(e) => e.stopPropagation()}
+            className="relative w-full max-w-[420px] aspect-[9/16] max-h-[85vh] bg-black rounded-[28px] md:rounded-[36px] overflow-hidden shadow-2xl border border-white/10 animate-in fade-in zoom-in-95 duration-200"
+          >
             {/* Close Button */}
             <button
               onClick={() => setIsOpen(false)}
-              className="absolute top-4 right-4 z-50 p-3 rounded-full bg-dark/70 text-white/80 hover:text-white hover:bg-dark border border-white/10 transition-all cursor-pointer hover:scale-105 active:scale-95"
+              className="absolute top-4 right-4 z-50 p-2.5 rounded-full bg-dark/70 text-white/80 hover:text-white hover:bg-dark border border-white/10 transition-all cursor-pointer hover:scale-105 active:scale-95 backdrop-blur-md"
               aria-label="Close video"
             >
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
               </svg>
             </button>

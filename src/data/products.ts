@@ -107,7 +107,7 @@ export const productsData: Product[] = [
     detailedExplanation: "NexoTek Jet Stream 360° Single-Arm Robotic Plant is a next-generation touchless vehicle cleaning solution designed for high-volume car wash operations. The intelligent rotating arm system delivers complete vehicle coverage using high-pressure water jets and advanced automation, ensuring consistent cleaning performance without physical contact. Engineered for speed, reliability, and low operating costs, the system helps car wash centers increase vehicle throughput while maintaining superior wash quality. Its smart control technology, precision positioning, and efficient water usage make it an ideal solution for modern automotive cleaning facilities.",
     image: "/images/Nexotek Jet Stream 360° Single-Arm Robotic Plant.png",
     banner: "/images/Nexotek Jet Stream 360° Single-Arm Robotic Plant_banner.png",
-    youtubeId: "5vWdCstK6X0", // Placeholder YouTube ID (User can replace later)
+    youtubeId: "TsqCWcVCOro", // Nexotek Touchless Car Wash Machine Demo Short
     features: [
       "360° smart rotating wash arm for full coverage",
       "100% touchless wash technology (prevents scratches)",
